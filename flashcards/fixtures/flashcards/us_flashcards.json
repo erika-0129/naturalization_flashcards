@@ -1,0 +1,1240 @@
+[
+  {
+    "model": "flashcards.category",
+    "pk": 1,
+    "fields": {
+      "name": "Principles of American Democracy"
+    }
+  },
+  {
+    "model": "flashcards.category",
+    "pk": 2,
+    "fields": {
+      "name": "System of Government"
+    }
+  },
+  {
+    "model": "flashcards.category",
+    "pk": 3,
+    "fields": {
+      "name": "Rights and Responsibilities"
+    }
+  },
+  {
+    "model": "flashcards.category",
+    "pk": 4,
+    "fields": {
+      "name": "Colonial Period and Independence"
+    }
+  },
+  {
+    "model": "flashcards.category",
+    "pk": 5,
+    "fields": {
+      "name": "1800s"
+    }
+  },
+  {
+    "model": "flashcards.category",
+    "pk": 6,
+    "fields": {
+      "name": "Recent American History and Other Important Historical Information"
+    }
+  },
+  {
+    "model": "flashcards.category",
+    "pk": 7,
+    "fields": {
+      "name": "Geography"
+    }
+  },
+  {
+    "model": "flashcards.category",
+    "pk": 8,
+    "fields": {
+      "name": "Symbols"
+    }
+  },
+  {
+    "model": "flashcards.category",
+    "pk": 9,
+    "fields": {
+      "name": "Holidays"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 1,
+    "fields": {
+      "question": "What is the supreme law of the land?",
+      "answer": "The Constitution",
+      "category": 1
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 2,
+    "fields": {
+      "question": "What does the Constitution do?",
+      "answer": [
+        "Sets up the government",
+        "Defines the government",
+        "Protects basic rights of Americans"
+      ],
+      "category": 1
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 3,
+    "fields": {
+      "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+      "answer": "We the People",
+      "category": 1
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 4,
+    "fields": {
+      "question": "What is an amendment?",
+      "answer": [
+        "A change (to the Constitution)",
+        "An addition (to the Constitution)"
+      ],
+      "category": 1
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 5,
+    "fields": {
+      "question": "What do we call the first ten amendments to the Constitution?",
+      "answer": "The Bill of Rights",
+      "category": 1
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 6,
+    "fields": {
+      "question": "What is one right or freedom from the First Amendment?",
+      "answer": [
+        "Speech",
+        "Religion",
+        "Assembly",
+        "Press",
+        "Petition the government"
+      ],
+      "category": 1
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 7,
+    "fields": {
+      "question": "How many amendments does the Constitution have?",
+      "answer": "Twenty-seven (27)",
+      "category": 1
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 8,
+    "fields": {
+      "question": "What did the Declaration of Independence do?",
+      "answer": [
+        "Announced our independence (from Great Britain)",
+        "Declared our independence (from Great Britain)",
+        "Said that the United States is free (from Great Britain)"
+      ],
+      "category": 1
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 9,
+    "fields": {
+      "question": "What are two rights in the Declaration of Independence?",
+      "answer": [
+        "Life",
+        "Liberty",
+        "Pursuit of happiness"
+      ],
+      "category": 1
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 10,
+    "fields": {
+      "question": "What is freedom of religion?",
+      "answer": "You can practice any religion, or not practice a religion.",
+      "category": 1
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 11,
+    "fields": {
+      "question": "What is the economic system in the United States?",
+      "answer": [
+        "Capitalist economy",
+        "Market economy"
+      ],
+      "category": 1
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 12,
+    "fields": {
+      "question": "What is the 'rule of law'?",
+      "answer": [
+        "Everyone must follow the law",
+        "Leaders must obey the law",
+        "Government must obey the law",
+        "No one is above the law"
+      ],
+      "category": 1
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 13,
+    "fields": {
+      "question": "Name one branch or part of the government.",
+      "answer": [
+        "Congress",
+        "Legislative",
+        "President",
+        "Executive",
+        "The courts",
+        "Judicial"
+      ],
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 14,
+    "fields": {
+      "question": "What stops one branch of government from becoming too powerful?",
+      "answer": [
+        "Checks and balances",
+        "Separation of powers"
+      ],
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 15,
+    "fields": {
+      "question": "Who is in charge of the executive branch?",
+      "answer": "The President",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 16,
+    "fields": {
+      "question": "Who makes federal laws?",
+      "answer": [
+        "Congress",
+        "Senate and House (of Representatives)",
+        "(U.S. or national) legislature"
+      ],
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 17,
+    "fields": {
+      "question": "What are the two parts of the U.S. Congress?",
+      "answer": "The Senate and House (of Representatives)",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 18,
+    "fields": {
+      "question": "How many U.S. Senators are there?",
+      "answer": "One hundred (100)",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 19,
+    "fields": {
+      "question": "We elect a U.S. Senator for how many years?",
+      "answer": "Six (6)",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 20,
+    "fields": {
+      "question": "Who is one of your state's U.S. Senators now?",
+      "answer": "Answers will vary. (District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. Senators.)",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 21,
+    "fields": {
+      "question": "The House of Representatives has how many voting members?",
+      "answer": "Four hundred thirty-five (435)",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 22,
+    "fields": {
+      "question": "We elect a U.S. Representative for how many years?",
+      "answer": "Two (2)",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 23,
+    "fields": {
+      "question": "Name your U.S. Representative.",
+      "answer": "Answers will vary. (Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has no (voting) Representatives in Congress.)",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 24,
+    "fields": {
+      "question": "Who does a U.S. Senator represent?",
+      "answer": "All people of the state",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 25,
+    "fields": {
+      "question": "Why do some states have more Representatives than other states?",
+      "answer": [
+        "(Because of) the state's population",
+        "(Because) they have more people",
+        "(Because) some states have more people"
+      ],
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 26,
+    "fields": {
+      "question": "We elect a President for how many years?",
+      "answer": "Four (4)",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 27,
+    "fields": {
+      "question": "In what month do we vote for President?",
+      "answer": "November",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 28,
+    "fields": {
+      "question": "What is the name of the President of the United States now?",
+      "answer": "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States.",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 29,
+    "fields": {
+      "question": "What is the name of the Vice President of the United States now?",
+      "answer": "Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States.",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 30,
+    "fields": {
+      "question": "If the President can no longer serve, who becomes President?",
+      "answer": "The Vice President",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 31,
+    "fields": {
+      "question": "If both the President and the Vice President can no longer serve, who becomes President?",
+      "answer": "The Speaker of the House",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 32,
+    "fields": {
+      "question": "Who is the Commander in Chief of the military?",
+      "answer": "The President",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 33,
+    "fields": {
+      "question": "Who signs bills to become laws?",
+      "answer": "The President",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 34,
+    "fields": {
+      "question": "Who vetoes bills?",
+      "answer": "The President",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 35,
+    "fields": {
+      "question": "What does the President's Cabinet do?",
+      "answer": "Advises the President",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 36,
+    "fields": {
+      "question": "What are two Cabinet-level positions?",
+      "answer": [
+        "Secretary of Agriculture",
+        "Secretary of Commerce",
+        "Secretary of Defense",
+        "Secretary of Education",
+        "Secretary of Energy",
+        "Secretary of Health and Human Services",
+        "Secretary of Homeland Security",
+        "Secretary of Housing and Urban Development",
+        "Secretary of the Interior",
+        "Secretary of Labor",
+        "Secretary of State",
+        "Secretary of Transportation",
+        "Secretary of the Treasury",
+        "Secretary of Veterans Affairs",
+        "Attorney General",
+        "Vice President"
+      ],
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 37,
+    "fields": {
+      "question": "What does the judicial branch do?",
+      "answer": [
+        "Reviews laws",
+        "Explains laws",
+        "Resolves disputes (disagreements)",
+        "Decides if a law goes against the Constitution"
+      ],
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 38,
+    "fields": {
+      "question": "What is the highest court in the United States?",
+      "answer": "The Supreme Court",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 39,
+    "fields": {
+      "question": "How many justices are on the Supreme Court?",
+      "answer": "Visit uscis.gov/citizenship/testupdates for the number of justices on the Supreme Court.",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 40,
+    "fields": {
+      "question": "Who is the Chief Justice of the United States now?",
+      "answer": "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States.",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 41,
+    "fields": {
+      "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+      "answer": [
+        "To print money",
+        "To declare war",
+        "To create an army",
+        "To make treaties"
+      ],
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 42,
+    "fields": {
+      "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+      "answer": [
+        "Provide schooling and education",
+        "Provide protection (police and fire departments)",
+        "Provide safety (fire departments)",
+        "Give a driver's license",
+        "Approve zoning and land use"
+      ],
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 43,
+    "fields": {
+      "question": "Who is the Governor of your state now?",
+      "answer": "Answers will vary. (District of Columbia residents should answer that D.C. does not have a Governor.)",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 44,
+    "fields": {
+      "question": "What is the capital of your state?",
+      "answer": "Answers will vary. (District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.)",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 45,
+    "fields": {
+      "question": "What are the two major political parties in the United States?",
+      "answer": "Democratic and Republican",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 46,
+    "fields": {
+      "question": "What is the political party of the President now?",
+      "answer": "Visit uscis.gov/citizenship/testupdates for the political party of the President.",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 47,
+    "fields": {
+      "question": "What is the name of the Speaker of the House of Representatives now?",
+      "answer": "Visit uscis.gov/citizenship/testupdates for the name of the Speaker of the House of Representatives.",
+      "category": 2
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 48,
+    "fields": {
+      "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+      "answer": [
+        "Citizens eighteen (18) and older (can vote)",
+        "You don't have to pay (a poll tax) to vote",
+        "Any citizen can vote (women and men can vote)",
+        "A male citizen of any race (can vote)"
+      ],
+      "category": 3
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 49,
+    "fields": {
+      "question": "What is one responsibility that is only for United States citizens?",
+      "answer": [
+        "Serve on a jury",
+        "Vote in a federal election"
+      ],
+      "category": 3
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 50,
+    "fields": {
+      "question": "Name one right only for United States citizens.",
+      "answer": [
+        "Vote in a federal election",
+        "Run for federal office"
+      ],
+      "category": 3
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 51,
+    "fields": {
+      "question": "What are two rights of everyone living in the United States?",
+      "answer": [
+        "Freedom of expression",
+        "Freedom of speech",
+        "Freedom of assembly",
+        "Freedom to petition the government",
+        "Freedom of religion",
+        "The right to bear arms"
+      ],
+      "category": 3
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 52,
+    "fields": {
+      "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+      "answer": [
+        "The United States",
+        "The flag"
+      ],
+      "category": 3
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 53,
+    "fields": {
+      "question": "What is one promise you make when you become a United States citizen?",
+      "answer": [
+        "Give up loyalty to other countries",
+        "Defend the Constitution and laws of the United States",
+        "Obey the laws of the United States",
+        "Serve in the U.S. military (if needed)",
+        "Serve (do important work for) the nation (if needed)",
+        "Be loyal to the United States"
+      ],
+      "category": 3
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 54,
+    "fields": {
+      "question": "How old do citizens have to be to vote for President?",
+      "answer": "Eighteen (18) and older",
+      "category": 3
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 55,
+    "fields": {
+      "question": "What are two ways that Americans can participate in their democracy?",
+      "answer": [
+        "Vote",
+        "Join a political party",
+        "Help with a campaign",
+        "Join a civic group",
+        "Join a community group",
+        "Give an elected official your opinion on an issue",
+        "Call Senators and Representatives",
+        "Publicly support or oppose an issue or policy",
+        "Run for office",
+        "Write to a newspaper"
+      ],
+      "category": 3
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 56,
+    "fields": {
+      "question": "When is the last day you can send in federal income tax forms?",
+      "answer": "April 15",
+      "category": 3
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 57,
+    "fields": {
+      "question": "When must all men register for the Selective Service?",
+      "answer": [
+        "At age eighteen (18)",
+        "Between eighteen (18) and twenty-six (26)"
+      ],
+      "category": 3
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 58,
+    "fields": {
+      "question": "Name one reason colonists came to America.",
+      "answer": [
+        "Freedom",
+        "Political liberty",
+        "Religious freedom",
+        "Economic opportunity",
+        "Practice their religion",
+        "Escape persecution"
+      ],
+      "category": 4
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 59,
+    "fields": {
+      "question": "Who lived in America before the Europeans arrived?",
+      "answer": [
+        "American Indians",
+        "Native Americans"
+      ],
+      "category": 4
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 60,
+    "fields": {
+      "question": "Which group of people was taken to the U.S. and sold as slaves?",
+      "answer": [
+        "Africans",
+        "People from Africa"
+      ],
+      "category": 4
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 61,
+    "fields": {
+      "question": "Why did the colonists fight the British?",
+      "answer": [
+        "Because of high taxes (taxation without representation)",
+        "Because the British army stayed in their houses (boarding, quartering)",
+        "Because they didn’t have self-government"
+      ],
+      "category": 4
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 62,
+    "fields": {
+      "question": "Who wrote the Declaration of Independence?",
+      "answer": "Thomas Jefferson",
+      "category": 4
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 63,
+    "fields": {
+      "question": "When was the Declaration of Independence adopted?",
+      "answer": "July 4, 1776",
+      "category": 4
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 64,
+    "fields": {
+      "question": "There were 13 original states. Name three.",
+      "answer": [
+        "New Hampshire",
+        "Massachusetts",
+        "Rhode Island",
+        "Connecticut",
+        "New York",
+        "New Jersey",
+        "Pennsylvania",
+        "Delaware",
+        "Maryland",
+        "Virginia",
+        "North Carolina",
+        "South Carolina",
+        "Georgia"
+      ],
+      "category": 4
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 65,
+    "fields": {
+      "question": "What happened at the Constitutional Convention?",
+      "answer": [
+        "The Constitution was written",
+        "The Founding Fathers wrote the Constitution"
+      ],
+      "category": 4
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 66,
+    "fields": {
+      "question": "When was the Constitution written?",
+      "answer": "1787",
+      "category": 4
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 67,
+    "fields": {
+      "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+      "answer": [
+        "James Madison",
+        "Alexander Hamilton",
+        "John Jay",
+        "Publius"
+      ],
+      "category": 4
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 68,
+    "fields": {
+      "question": "What is one thing Benjamin Franklin is famous for?",
+      "answer": [
+        "U.S. diplomat",
+        "Oldest member of the Constitutional Convention",
+        "First Postmaster General of the United States",
+        "Writer of 'Poor Richard’s Almanack'",
+        "Started the first free libraries"
+      ],
+      "category": 4
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 69,
+    "fields": {
+      "question": "Who is the 'Father of Our Country'?",
+      "answer": "George Washington",
+      "category": 4
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 70,
+    "fields": {
+      "question": "Who was the first President?",
+      "answer": "George Washington",
+      "category": 4
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 71,
+    "fields": {
+      "question": "What territory did the United States buy from France in 1803?",
+      "answer": [
+        "The Louisiana Territory",
+        "Louisiana"
+      ],
+      "category": 5
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 72,
+    "fields": {
+      "question": "Name one war fought by the United States in the 1800s.",
+      "answer": [
+        "War of 1812",
+        "Mexican-American War",
+        "Civil War",
+        "Spanish-American War"
+      ],
+      "category": 5
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 73,
+    "fields": {
+      "question": "Name the U.S. war between the North and the South.",
+      "answer": [
+        "The Civil War",
+        "The War between the States"
+      ],
+      "category": 5
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 74,
+    "fields": {
+      "question": "Name one problem that led to the Civil War.",
+      "answer": [
+        "Slavery",
+        "Economic reasons",
+        "States' rights"
+      ],
+      "category": 5
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 75,
+    "fields": {
+      "question": "What was one important thing that Abraham Lincoln did?",
+      "answer": [
+        "Freed the slaves (Emancipation Proclamation)",
+        "Saved (or preserved) the Union",
+        "Led the U.S. during the Civil War"
+      ],
+      "category": 5
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 76,
+    "fields": {
+      "question": "What did the Emancipation Proclamation do?",
+      "answer": [
+        "Freed the slaves",
+        "Freed slaves in the Confederacy",
+        "Freed slaves in the Confederate states",
+        "Freed slaves in most Southern states"
+      ],
+      "category": 5
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 77,
+    "fields": {
+      "question": "What did Susan B. Anthony do?",
+      "answer": [
+        "Fought for women’s rights",
+        "Fought for civil rights"
+      ],
+      "category": 5
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 78,
+    "fields": {
+      "question": "Name one war fought by the United States in the 1900s.",
+      "answer": [
+        "World War I",
+        "World War II",
+        "Korean War",
+        "Vietnam War",
+        "Persian Gulf War"
+      ],
+      "category": 6
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 79,
+    "fields": {
+      "question": "Who was President during World War I?",
+      "answer": "Woodrow Wilson",
+      "category": 6
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 80,
+    "fields": {
+      "question": "Who was President during the Great Depression and World War II?",
+      "answer": "Franklin Roosevelt",
+      "category": 6
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 81,
+    "fields": {
+      "question": "Who did the United States fight in World War II?",
+      "answer": "Japan, Germany, and Italy",
+      "category": 6
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 82,
+    "fields": {
+      "question": "Before he was President, Eisenhower was a general. What war was he in?",
+      "answer": "World War II",
+      "category": 6
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 83,
+    "fields": {
+      "question": "During the Cold War, what was the main concern of the United States?",
+      "answer": "Communism",
+      "category": 6
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 84,
+    "fields": {
+      "question": "What movement tried to end racial discrimination?",
+      "answer": "Civil rights (movement)",
+      "category": 6
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 85,
+    "fields": {
+      "question": "What did Martin Luther King, Jr. do?",
+      "answer": [
+        "Fought for civil rights",
+        "Worked for equality for all Americans"
+      ],
+      "category": 6
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 86,
+    "fields": {
+      "question": "What major event happened on September 11, 2001, in the United States?",
+      "answer": "Terrorists attacked the United States",
+      "category": 6
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 87,
+    "fields": {
+      "question": "Name one American Indian tribe in the United States.",
+      "answer": [
+        "Cherokee",
+        "Navajo",
+        "Sioux",
+        "Chippewa",
+        "Choctaw",
+        "Pueblo",
+        "Apache",
+        "Iroquois",
+        "Creek",
+        "Blackfeet",
+        "Seminole",
+        "Cheyenne",
+        "Arawak",
+        "Shawnee",
+        "Mohegan",
+        "Huron",
+        "Oneida",
+        "Lakota",
+        "Crow",
+        "Teton",
+        "Hopi",
+        "Inuit"
+      ],
+      "category": 6
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 88,
+    "fields": {
+      "question": "Name one of the two longest rivers in the United States.",
+      "answer": [
+        "Missouri River",
+        "Mississippi River"
+      ],
+      "category": 7
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 89,
+    "fields": {
+      "question": "What ocean is on the West Coast of the United States?",
+      "answer": "Pacific Ocean",
+      "category": 7
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 90,
+    "fields": {
+      "question": "What ocean is on the East Coast of the United States?",
+      "answer": "Atlantic Ocean",
+      "category": 7
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 91,
+    "fields": {
+      "question": "Name one U.S. territory.",
+      "answer": [
+        "Puerto Rico",
+        "U.S. Virgin Islands",
+        "American Samoa",
+        "Northern Mariana Islands",
+        "Guam"
+      ],
+      "category": 7
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 92,
+    "fields": {
+      "question": "Name one state that borders Canada.",
+      "answer": [
+        "Maine",
+        "New Hampshire",
+        "Vermont",
+        "New York",
+        "Pennsylvania",
+        "Ohio",
+        "Michigan",
+        "Minnesota",
+        "North Dakota",
+        "Montana",
+        "Idaho",
+        "Washington",
+        "Alaska"
+      ],
+      "category": 7
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 93,
+    "fields": {
+      "question": "Name one state that borders Mexico.",
+      "answer": [
+        "California",
+        "Arizona",
+        "New Mexico",
+        "Texas"
+      ],
+      "category": 7
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 94,
+    "fields": {
+      "question": "What is the capital of the United States?",
+      "answer": "Washington, D.C.",
+      "category": 7
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 95,
+    "fields": {
+      "question": "Where is the Statue of Liberty?",
+      "answer": [
+        "New York (Harbor)",
+        "Liberty Island"
+      ],
+      "category": 7
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 96,
+    "fields": {
+      "question": "Why does the flag have 13 stripes?",
+      "answer": [
+        "Because there were 13 original colonies",
+        "Because the stripes represent the original colonies"
+      ],
+      "category": 8
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 97,
+    "fields": {
+      "question": "Why does the flag have 50 stars?",
+      "answer": [
+        "Because there is one star for each state",
+        "Because each star represents a state",
+        "Because there are 50 states"
+      ],
+      "category": 8
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 98,
+    "fields": {
+      "question": "What is the name of the national anthem?",
+      "answer": "The Star-Spangled Banner",
+      "category": 8
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 99,
+    "fields": {
+      "question": "When do we celebrate Independence Day?",
+      "answer": "July 4",
+      "category": 9
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 100,
+    "fields": {
+      "question": "Name two national U.S. holidays.",
+      "answer": [
+        "New Year’s Day",
+        "Martin Luther King, Jr. Day",
+        "Presidents’ Day",
+        "Memorial Day",
+        "Independence Day",
+        "Labor Day",
+        "Columbus Day",
+        "Veterans Day",
+        "Thanksgiving",
+        "Christmas"
+      ],
+      "category": 9
+    }
+  }
+]

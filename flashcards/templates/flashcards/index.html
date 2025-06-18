@@ -1,0 +1,13 @@
+{% extends "flashcards/layout.html" %}{% load static %}
+{% block body %}
+    <h1>Civics (History and Government) Questions for the Naturalization Test</h1>
+    <h3>Choose a category</h3>
+
+    <ul>
+        {% for category in category_list %}
+            <li><a href="{% url 'category_cards' category_id=category.id %}"> {{ category.name }}</a></li>
+        {% endfor %}
+    </ul>
+
+
+{% endblock %}

@@ -1,0 +1,137 @@
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+    background-color: #f0f2f5; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+p {
+    color: #666;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.flashcard-box {
+    text-align: center;
+    border-radius: 20px;
+    max-width: 90%;
+    width: 600px; 
+    height: 350px; 
+    padding: 20px;
+    perspective: 1000px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.flashcard-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+
+.flashcard-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s ease-in-out;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Hover effect to flip the card */
+.flashcard-container:hover .flashcard-inner {
+    transform: rotateY(180deg);
+}
+
+.flashcard-front, .flashcard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #e0f7fa;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px; 
+    box-sizing: border-box;
+    font-size: 1.3em;
+    color: #263238;
+    word-wrap: break-word;
+    overflow: auto;
+    line-height: 1.5; 
+}
+
+.flashcard-back {
+    background-color: #80deea; 
+    color: #ffffff; 
+    transform: rotateY(180deg);
+}
+
+.flashcard-front strong, .flashcard-back strong {
+    margin-right: 5px; 
+}
+
+/* Ensure text is centered within the card */
+.flashcard-front p, .flashcard-back p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .flashcard-box {
+        max-width: 95%;
+        height: 300px; 
+        width: 100%; 
+    }
+    .flashcard-front, .flashcard-back {
+        font-size: 1.1em; 
+        padding: 20px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .flashcard-box {
+        height: 250px;
+        padding: 10px;
+    }
+    .flashcard-front, .flashcard-back {
+        font-size: 1em;
+        padding: 15px;
+    }
+    h1 {
+        font-size: 1.4em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+}
