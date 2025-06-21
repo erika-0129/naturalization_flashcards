@@ -26,6 +26,9 @@
         </div>
     </div>
     <a href="{% url 'index' %}">Back to Categories</a>
-    {{ flashcards_json|json_script:"flashcard-data" }}
+    <script id="flashcard-data" type="application/json">
+        {{ flashcards_json|safe }}
+    </script>
+
     <script src="{% static 'flashcards/flip.js' %}"></script>
 {% endblock %}
