@@ -58,11 +58,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Ensure all necessary DOM elements are found
     if (!flashcardContainer || !flashcardInner || !questionText || !answerText || 
-        !answerButton === 0 || !questionButton === 0 || nextButtons.length === 0 || previousButtons.length === 0) {
-        console.error("Error: One or more required DOM elements for flashcard display or buttons were not found.");
-        console.log({flashcardContainer, flashcardInner, questionText, answerText, answerButton, questionButton, nextButtons, previousButtons});
-        return;
-    }
+        answerButton.length === 0 || questionButton.length === 0 || nextButtons.length === 0 || previousButtons.length === 0) {
+            console.error("Error: One or more required DOM elements for flashcard display or buttons were not found.");
+            console.log({flashcardContainer, flashcardInner, questionText, answerText, answerButton, questionButton, nextButtons, previousButtons});
+            return;
+        }
 
     // Some questions have multiple answers. This will organize the answers so that they are displayed with a newline
     function parsePythonListString(listString) {
