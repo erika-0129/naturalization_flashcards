@@ -51,14 +51,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const answerText = document.getElementById('answer-text');
 
     // Get references to the new buttons
-    const answerButton = document.querySelector('.answer-button');
-    const questionButton = document.querySelector('.question-button');
+    const answerButton = document.querySelectorAll('.answer-button');
+    const questionButton = document.querySelectorAll('.question-button');
     const nextButtons = document.querySelectorAll('.next-question'); 
     const previousButtons = document.querySelectorAll('.previous-question'); 
 
     // Ensure all necessary DOM elements are found
     if (!flashcardContainer || !flashcardInner || !questionText || !answerText || 
-        !answerButton || !questionButton || nextButtons.length === 0 || previousButtons.length === 0) {
+        !answerButton === 0 || !questionButton === 0 || nextButtons.length === 0 || previousButtons.length === 0) {
         console.error("Error: One or more required DOM elements for flashcard display or buttons were not found.");
         console.log({flashcardContainer, flashcardInner, questionText, answerText, answerButton, questionButton, nextButtons, previousButtons});
         return;
@@ -156,15 +156,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Attach event listeners to the buttons
-    answerButton.addEventListener('click', handleAnswerClick);
-    questionButton.addEventListener('click', handleQuestionClick);
+    answerButton.forEach(button => { // Iterate through all answer buttons
+        button.addEventListener('click', handleAnswerClick);
+    });
+    questionButton.forEach(button => { // Iterate through all question buttons
+        button.addEventListener('click', handleQuestionClick);
+    });
 
-    // Attach listeners to all "Next" buttons (front and back)
     nextButtons.forEach(button => {
         button.addEventListener('click', handleNextClick);
     });
 
-    // Attach listeners to all "Previous" buttons (front and back)
     previousButtons.forEach(button => {
         button.addEventListener('click', handlePreviousClick);
     });
